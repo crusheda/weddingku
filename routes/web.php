@@ -37,4 +37,5 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
 });
 
 // User
+Route::get('/{tamu}', 'Client\clientController@tamu')->name('alfi.tamu');
 Route::resource('/', 'Client\clientController');

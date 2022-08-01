@@ -14,7 +14,15 @@ class clientController extends Controller
      */
     public function index()
     {
-        return view('pages.client.index3');
+        return view('pages.client.alfi');
+    }
+
+    public function tamu($tamu)
+    {
+        $data = [
+            'tamu' => $tamu,
+        ];
+        return view('pages.client.alfi')->with('list',$data);
     }
 
     /**
@@ -46,7 +54,7 @@ class clientController extends Controller
      */
     public function show($id)
     {
-        //
+
     }
 
     /**
