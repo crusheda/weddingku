@@ -244,7 +244,7 @@
         <div class="container">
         <img class="mb-5" src=client/theme1/themes/twelve/images/content/flower.png width=250>
         <div class="row justify-content-center">
-                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="card information shadow border-0">
                     <div class="card-body">
                     <h3>Akad Nikah</h3>
@@ -260,7 +260,7 @@
                     </div>
                 </div>
             </div>
-                                    <div class="col-lg-4"  data-aos="fade-up" data-aos-delay="400">
+            <div class="col-lg-4"  data-aos="fade-up" data-aos-delay="400">
                 <div class="card information shadow border-0">
                     <div class="card-body">
                     <h3>Resepsi</h3>
@@ -276,7 +276,7 @@
                     </div>
                 </div>
             </div>
-                                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500">
                 <div class="card information shadow border-0">
                     <div class="card-body">
                     <h3>Unduh Mantu</h3>
@@ -292,7 +292,7 @@
                     </div>
                 </div>
             </div>
-                    </div>
+        </div>
         <div class="row">
             <div class="col-md-12 mt-4">
                 <h5>Tambahkan Ke :</h5>
