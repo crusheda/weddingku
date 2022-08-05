@@ -14,14 +14,14 @@
         <title>Penikahan - Alfi &amp; Nida</title>
         <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('client/theme3/images/ring.png') }}">
         <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('client/theme3/images/ring.png') }}">
-    <meta name="title" content="The Wedding Of Abu &amp; Faizah">
-    <meta name="description" content="Tanpa Mengurangi Rasa Hormat. Kami Bermaksud Mengundang Bapak/Ibu/Saudara/i, Pada Acara Ngunduh Mantu Putra &amp; Putri Kami">
+    <meta name="title" content="The Wedding Of Alfi &amp; Nida">
+    <meta name="description" content="Tanpa Mengurangi Rasa Hormat. Kami Bermaksud Mengundang Bapak/Ibu/Saudara/i, Pada Acara Pernikahan Putra &amp; Putri Kami">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="Kilat Photography">
     <meta property="og:url" content="https://www.instagram.com/kilatphoto/">
-    <meta property="og:title" content="Ngunduh Mantu - Alfi &amp; Zulfa">
-    <meta property="og:description" content="Tanpa Mengurangi Rasa Hormat. Kami Bermaksud Mengundang Bapak/Ibu/Saudara/i, Pada Acara Ngunduh Mantu Putra &amp; Putri Kami">
-    <meta property="og:image" content="client/theme3/images/invitation/cover-31061653467124.jpg">
+    <meta property="og:title" content="The Wedding Of Alfi &amp; Nida">
+    <meta property="og:description" content="Tanpa Mengurangi Rasa Hormat. Kami Bermaksud Mengundang Bapak/Ibu/Saudara/i, Pada Acara Pernikahan Putra &amp; Putri Kami">
+    <meta property="og:image" content="{{ asset('client/theme3/alfinida.jpg') }}">
 
     <!-- css -->
     <link rel="stylesheet" href="client/theme3/cdn.jsdelivr.net/npm/%40splidejs/splide%40latest/dist/css/splide.min.css">
@@ -645,7 +645,7 @@
   </div>
 <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
   <div width="100%">
-  <div class="editable mb-3 text-center animate__animated animate__fadeInDown animate__slower">Tanpa mengurangi rasa hormat kami bermaksud mengundang Bapak/Ibu/Saudara/i pada acara Ngunduh Mantu Putra &amp; Putri Kami:</div>
+  <div class="editable mb-3 text-center animate__animated animate__fadeInDown animate__slower">Tanpa mengurangi rasa hormat kami bermaksud mengundang Bapak/Ibu/Saudara/i pada acara Pernikahan Putra &amp; Putri Kami:</div>
 {{-- <div class="d-flex justify-content-center mb-3" style="gap: 20px;">
   <div class="image-editable animate__animated animate__fadeInLeft animate__slower" style="
     height: 100px;
@@ -714,23 +714,23 @@
   <div class="countdown-wrapper d-flex flex-column animate__animated animate__fadeInRight animate__slower" data-datetime="2022-07-22T19:11" style="">
     <div class="countdown text-center">
     <div class="countdown-item day">
-        <div class="number">30</div>
+        <div id="days1"></div>
         <div class="text editable">Hari</div>
     </div>
     <div class="countdown-item hour">
-        <div class="number">00</div>
+        <div id="hours1"></div>
         <div class="text editable">Jam</div>
     </div>
     <div class="countdown-item minute">
-        <div class="number">00</div>
+        <div id="minutes1"></div>
         <div class="text editable">Menit</div>
     </div>
     <div class="countdown-item second">
-        <div class="number">00</div>
+        <div id="seconds1"></div>
         <div class="text editable">Detik</div>
     </div>
     </div>
-    <button class="btn-countdown btn btn-sm btn-pilled btn-accent mt-2" style="">Atur Countdown</button>
+    {{-- <button class="btn-countdown btn btn-sm btn-pilled btn-accent mt-2" style="">Atur Countdown</button> --}}
   </div>
   <br>
   <div class="text-center mb-4 animate__animated animate__fadeInLeft animate__slower">
@@ -742,23 +742,23 @@
   <div class="countdown-wrapper d-flex flex-column animate__animated animate__fadeInLeft animate__slower" data-datetime="2022-07-22T19:11" style="">
     <div class="countdown text-center">
     <div class="countdown-item day">
-        <div class="number">30</div>
+        <div id="days2"></div>
         <div class="text editable">Hari</div>
     </div>
     <div class="countdown-item hour">
-        <div class="number">00</div>
+        <div id="hours2"></div>
         <div class="text editable">Jam</div>
     </div>
     <div class="countdown-item minute">
-        <div class="number">00</div>
+        <div id="minutes2"></div>
         <div class="text editable">Menit</div>
     </div>
     <div class="countdown-item second">
-        <div class="number">00</div>
+        <div id="seconds2"></div>
         <div class="text editable">Detik</div>
     </div>
     </div>
-    <button class="btn-countdown btn btn-sm btn-pilled btn-accent mt-2" style="">Atur Countdown</button>
+    {{-- <button class="btn-countdown btn btn-sm btn-pilled btn-accent mt-2" style="">Atur Countdown</button> --}}
   </div>
 
         </div>
@@ -942,10 +942,7 @@
         <div class="text-center mb-2">
           <div class="editable font-weight-bold h5 mb-0">8265222079</div>
           <div class="editable">BCA : MUHAMMAD ALFISINA</div>
-        {{-- </div><div class="text-center">
-          <div class="editable font-weight-bold h5 mb-0">12345678</div>
-          <div class="editable">BCA : Atas Nama Rekening</div>
-        </div> --}}
+        </div>
       </div><div class="gift-container mt-3 p-4 rounded animate__animated animate__zoomIn animate__slow" style="
 ">
         <div class="text-center mb-2">
@@ -1374,8 +1371,59 @@
         checkBrowser()
     </script>
     <!-- end script -->
+
     <script>
-        
+      // COUNTDOWN AKAD
+        // Silahkan anda atur tanggal anda
+        var countDownDate1 = new Date("Aug 28, 2022 08:00:00").getTime();
+        // Hitungan Mundur Waktu Dilakukan Setiap Satu Detik
+        var x1 = setInterval(function() {
+        // Mendapatkan Tanggal dan waktu Pada Hari ini
+        var now1 = new Date().getTime();
+        //Jarak Waktu Antara Hitungan Mundur
+        var distance1 = countDownDate1 - now1;
+        // Perhitungan waktu hari, jam, menit dan detik
+        var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
+        var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
+        document.getElementById("days1").innerHTML = days1;
+        document.getElementById("hours1").innerHTML = hours1;
+        document.getElementById("minutes1").innerHTML = minutes1;
+        document.getElementById("seconds1").innerHTML = seconds1;
+        // Jika hitungan mundur selesai,
+        if (distance1 < 0) {
+            clearInterval(x1);
+            document.getElementById("days1").innerHTML = '-';
+            document.getElementById("hours1").innerHTML = '-';
+            document.getElementById("minutes1").innerHTML = '-';
+            document.getElementById("seconds1").innerHTML = '-';
+          }
+        }, 1000);
+
+      // COUNTDOWN NGUNDUH
+        // Silahkan anda atur tanggal anda
+        var countDownDate2 = new Date("Aug 30, 2022 13:00:00").getTime();
+        // Hitungan Mundur Waktu Dilakukan Setiap Satu Detik
+        var x2 = setInterval(function() {
+        // Mendapatkan Tanggal dan waktu Pada Hari ini
+        var now2 = new Date().getTime();
+        //Jarak Waktu Antara Hitungan Mundur
+        var distance2 = countDownDate2 - now2;
+        // Perhitungan waktu hari, jam, menit dan detik
+        var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
+        var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
+        document.getElementById("days2").innerHTML = days2;
+        document.getElementById("hours2").innerHTML = hours2;
+        document.getElementById("minutes2").innerHTML = minutes2;
+        document.getElementById("seconds2").innerHTML = seconds2;
+        // Jika hitungan mundur selesai,
+        if (distance2 < 0) {
+            clearInterval(x2);
+          }
+        }, 1000);
     </script>
 </body>
 
