@@ -1176,7 +1176,7 @@
     height: 100%;
 ">
     <div swtyle="width: 100%"><div class="text-center">
-    <div class="editable font-accent h4 animate__animated animate__fadeInDown animate__slower">Alfi &amp; Zulfa</div><br>
+    <div class="editable font-accent h4 animate__animated animate__fadeInDown animate__slower">Alfi &amp; Nida</div><br>
     <div class="editable quotes mb-3 animate__animated animate__fadeInDown animate__slower">Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir dan memberikan do'a restu kepada kedua mempelai.</div>
     <div class="editable mb-3 font-italic animate__animated animate__fadeInDown animate__slow">Hormat Kami Yang Mengundang</div>
     <div class="editable quotes h6 color-accent animate__animated animate__fadeInDown animate__slow">Kel. Bpk Ngadiyo &amp; Ibu Siti Badrul Chayati / Atik</div>
