@@ -591,8 +591,9 @@
 ">
         <div style="width: 100%"><div><div class="text-center">
 
-    <div class="editable mb-2 animate__animated animate__fadeInDown animate__slower">Undangan</div><div class="editable font-accent color-accent h2 mb-2 animate__animated animate__fadeInDown animate__slow">Alfi<br>&amp;<br>Nida</div>
-<div class="editable mb-3 animate__animated animate__fadeInDown">30 Agustus 2022</div>
+    <div class="editable mb-2 animate__animated animate__fadeInDown animate__slow">Undangan</div>
+    <div class="editable font-accent color-accent h2 mb-2 animate__animated animate__fadeInDown animate__slow">Alfi<br>&amp;<br>Nida</div>
+<div class="editable mb-3 animate__animated animate__fadeInDown"></div>
 </div>
     
     
