@@ -11,7 +11,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta content="Jasa Fotografer Murah Sukoharjo" name="description" />
     <meta content="Kilat Photography" name="author" />
-        <title>Ngunduh Mantu - Alfi &amp; Zulfa</title>
+        <title>Penikahan - Alfi &amp; Nida</title>
         <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('client/theme3/images/ring.png') }}">
         <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('client/theme3/images/ring.png') }}">
     <meta name="title" content="The Wedding Of Abu &amp; Faizah">
@@ -570,7 +570,8 @@
                 <!-- music -->
                         <audio id="music" loop autoplay>
             {{-- <source src="https://satumomen.id/musics/FullHouseOstLikebeforeInstrumentalLeeBoRamGeuDehJiGeum.mp3"> --}}
-            <source src="client/theme3/Aci Cahaya - Ana Uhibbuka Fillah.mp3">
+            {{-- <source src="client/theme3/Aci Cahaya - Ana Uhibbuka Fillah.mp3"> --}}
+            <source src="client/theme3/Beautiful In White - Shane Filan.mp3">
             </audio>
                     <!-- end music -->
                         <!-- invitation -->
@@ -590,7 +591,7 @@
 ">
         <div style="width: 100%"><div><div class="text-center">
 
-    <div class="editable mb-2 animate__animated animate__fadeInDown animate__slower">Ngunduh Mantu</div><div class="editable font-accent color-accent h2 mb-2 animate__animated animate__fadeInDown animate__slow">Alfi<br>&amp;<br>Zulfa</div>
+    <div class="editable mb-2 animate__animated animate__fadeInDown animate__slower">Undangan</div><div class="editable font-accent color-accent h2 mb-2 animate__animated animate__fadeInDown animate__slow">Alfi<br>&amp;<br>Nida</div>
 <div class="editable mb-3 animate__animated animate__fadeInDown">30 Agustus 2022</div>
 </div>
     
@@ -704,41 +705,61 @@
     height: 100%;
 ">
 <div style="width: 100%">
-  <div class="text-center mb-4 animate__animated animate__fadeInLeft animate__slower">
-    <div class="editable font-latin color-accent h4 mb-2">Ngunduh Mantu</div>
-    <div class="editable ">Selasa Pon, 30 Agustus 2022</div>
-    <div class="editable ">Pukul 13:00 WIB s/d Selesai</div>
-    <div class="editable ">Wonosari Rt. 01/13 Polokarto, Polokarto, Sukoharjo</div>
+  <div class="text-center mb-4 animate__animated animate__fadeInRight animate__slower">
+    <div class="editable font-latin color-accent h4 mb-2">Akad Nikah &amp; Resepsi</div>
+    <div class="editable ">Minggu, 28 agustus 2022</div>
+    <div class="editable ">Pukul 08.00 WIB</div>
+    <div class="editable ">Wonorejo Rt. 02/04 Wonorejo, Polokarto, Sukoharjo</div>
   </div>
-  {{-- <div class="text-center mb-4 animate__animated animate__fadeInRight animate__slower">
-    <div class="editable font-latin color-accent h4 mb-2">Resepsi</div>
-    <div class="editable ">Minggu, 2 Januari 2022</div>
-    <div class="editable ">Pukul 18:00 Wita</div>
-    <div class="editable ">Satu Momen<br>Jl. Wildan Sari 1 No. 11 Banjarmasin Barat</div>
-  </div> --}}
-
-  <div class="countdown-wrapper d-flex flex-column animate__animated animate__fadeInUp animate__slower" data-datetime="2022-07-22T19:11" style="">
+  <div class="countdown-wrapper d-flex flex-column animate__animated animate__fadeInRight animate__slower" data-datetime="2022-07-22T19:11" style="">
     <div class="countdown text-center">
     <div class="countdown-item day">
-            <div class="number">30</div>
-            <div class="text editable">Hari</div>
-        </div>
+        <div class="number">30</div>
+        <div class="text editable">Hari</div>
+    </div>
     <div class="countdown-item hour">
-            <div class="number">00</div>
-            <div class="text editable">Jam</div>
-        </div>
+        <div class="number">00</div>
+        <div class="text editable">Jam</div>
+    </div>
     <div class="countdown-item minute">
-            <div class="number">00</div>
-            <div class="text editable">Menit</div>
-        </div>
+        <div class="number">00</div>
+        <div class="text editable">Menit</div>
+    </div>
     <div class="countdown-item second">
-            <div class="number">00</div>
-            <div class="text editable">Detik</div>
-        </div>
-        
-</div>
+        <div class="number">00</div>
+        <div class="text editable">Detik</div>
+    </div>
+    </div>
     <button class="btn-countdown btn btn-sm btn-pilled btn-accent mt-2" style="">Atur Countdown</button>
-</div>
+  </div>
+  <br>
+  <div class="text-center mb-4 animate__animated animate__fadeInLeft animate__slower">
+    <div class="editable font-latin color-accent h4 mb-2">Ngunduh</div>
+    <div class="editable ">Selasa, 30 Agustus 2022</div>
+    <div class="editable ">Pukul 13:00 WIB</div>
+    <div class="editable ">Wonosari Rt. 01/13 Polokarto, Polokarto, Sukoharjo</div>
+  </div>
+  <div class="countdown-wrapper d-flex flex-column animate__animated animate__fadeInLeft animate__slower" data-datetime="2022-07-22T19:11" style="">
+    <div class="countdown text-center">
+    <div class="countdown-item day">
+        <div class="number">30</div>
+        <div class="text editable">Hari</div>
+    </div>
+    <div class="countdown-item hour">
+        <div class="number">00</div>
+        <div class="text editable">Jam</div>
+    </div>
+    <div class="countdown-item minute">
+        <div class="number">00</div>
+        <div class="text editable">Menit</div>
+    </div>
+    <div class="countdown-item second">
+        <div class="number">00</div>
+        <div class="text editable">Detik</div>
+    </div>
+    </div>
+    <button class="btn-countdown btn btn-sm btn-pilled btn-accent mt-2" style="">Atur Countdown</button>
+  </div>
 
         </div>
     </div>
@@ -919,12 +940,12 @@
           <img class="mb-4 lightbox" src="client/theme3/images/galleries/3106-gallery-1653467484.jpg" style="width: 100%;height: 100%;object-fit: cover;">
         </div>
         <div class="text-center mb-2">
+          <div class="editable font-weight-bold h5 mb-0">8265222079</div>
+          <div class="editable">BCA : MUHAMMAD ALFISINA</div>
+        {{-- </div><div class="text-center">
           <div class="editable font-weight-bold h5 mb-0">12345678</div>
           <div class="editable">BCA : Atas Nama Rekening</div>
-        </div><div class="text-center">
-          <div class="editable font-weight-bold h5 mb-0">12345678</div>
-          <div class="editable">BCA : Atas Nama Rekening</div>
-        </div>
+        </div> --}}
       </div><div class="gift-container mt-3 p-4 rounded animate__animated animate__zoomIn animate__slow" style="
 ">
         <div class="text-center mb-2">
