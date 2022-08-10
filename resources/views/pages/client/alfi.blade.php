@@ -709,7 +709,7 @@
   <div class="text-center mb-4 animate__animated animate__fadeInRight animate__slower">
     <div class="editable font-latin color-accent h4 mb-2">Akad Nikah &amp; Resepsi</div>
     <div class="editable ">Minggu, 28 agustus 2022</div>
-    <div class="editable ">Pukul 08.00 WIB</div>
+    <div class="editable ">Pukul 08.00 WIB <b>(Akad)</b><br>Pukul 09.00 WIB <b>(Resepsi)</b></div>
     <div class="editable ">Wonorejo Rt. 02/04 Wonorejo, Polokarto, Sukoharjo</div>
   </div>
   <div class="countdown-wrapper d-flex flex-column animate__animated animate__fadeInRight animate__slower" data-datetime="2022-07-22T19:11" style="">
@@ -737,7 +737,7 @@
   <div class="text-center mb-4 animate__animated animate__fadeInLeft animate__slower">
     <div class="editable font-latin color-accent h4 mb-2">Ngunduh</div>
     <div class="editable ">Selasa, 30 Agustus 2022</div>
-    <div class="editable ">Pukul 13:00 WIB</div>
+    <div class="editable ">Pukul 13.00 WIB</div>
     <div class="editable ">Wonosari Rt. 01/13 Polokarto, Polokarto, Sukoharjo</div>
   </div>
   <div class="countdown-wrapper d-flex flex-column animate__animated animate__fadeInLeft animate__slower" data-datetime="2022-07-22T19:11" style="">
@@ -816,43 +816,64 @@
   </div>
                         </div>
                     </li> --}}
-                                        <li class="splide__slide invitation__slide">
-                        <div class="container-mobile" style="background-image: url(client/theme3/themes/azureish-white/bg.jpg); ;">
-                              <div class="frame">
-    <img class="frame-tr animate__animated animate__fadeInDown animate__slower"
-      src="client/theme3/themes/azureish-white/frame-tr.png" alt="frame" style="width: 100%;">
-    <img class="frame-bl animate__animated animate__fadeInUp animate__slower" src="client/theme3/themes/azureish-white/frame-bl.png"
-      alt="frame" style="width: 100%;">
-  </div>
-                            <div class="d-flex justify-content-center align-items-center" style="
-    height: 100%;
-">
-        <div style="
-    width: 100%;
-"><div>
-    <div style="
-    width: 100%;
-    margin: auto;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    padding-bottom: 100%;
-    position: relative;
-" class="animate__animated animate__fadeInDown animate__slow">
-    <iframe width="100%" height="100%" style="border:0;position: absolute;" loading="lazy" allowfullscreen="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25844.59522767249!2d110.91293271290806!3d-7.640491512655445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a23ca2c7880c1%3A0x1059cf452daf52d0!2sRidho%20Illahi%20Trans!5e0!3m2!1sid!2sid!4v1659372732340!5m2!1sid!2sid" class="maps-embed">
-</iframe>
-</div>
-    {{-- <button class="btn-maps btn btn-sm btn-pilled btn-block btn-accent mt-1 mb-4" style="">Edit Denah Lokasi</button> --}}
-<div class="text-center animate__animated animate__fadeInUp animate__slow">
-        <div class="editable mb-3">Wonosari Rt. 01/13 Polokarto, Polokarto, Sukoharjo</div>
-    <a href="https://www.google.com/maps/search/?q=-7.648647619015507,110.94256361569418" class="btn-maps-link btn btn-primary rounded-pill mb-4 animate__animated animate__fadeInUp animate__slow" target="_blank">Petunjuk Ke Lokasi</a>
+<li class="splide__slide invitation__slide">
+  <div class="container-mobile" style="background-image: url(client/theme3/themes/azureish-white/bg.jpg); ;">
+    <div class="frame">
+      <img class="frame-tr animate__animated animate__fadeInDown animate__slower"
+        src="client/theme3/themes/azureish-white/frame-tr.png" alt="frame" style="width: 100%;">
+      <img class="frame-bl animate__animated animate__fadeInUp animate__slower" src="client/theme3/themes/azureish-white/frame-bl.png"
+        alt="frame" style="width: 100%;">
     </div>
-
-    
-    
-</div></div></div>
-                        </div>
-                    </li>
+    <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+      <div class="row">
+        <div class="col-md-12">
+          <div style="width: 100%;">
+            <div>
+              <div style="
+                width: 100%;
+                margin: auto;
+                border-radius: 10px;
+                overflow: hidden;
+                margin-bottom: -200px;
+                padding-bottom: 100%;
+                position: relative;" class="animate__animated animate__fadeInLeft animate__slow">
+                <iframe width="100%" height="50%" style="border:0;position: absolute;" loading="lazy" allowfullscreen="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.524791236054!2d110.8874248!3d-7.626570300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3dfdf39f71f9%3A0xd82f15ee192662ec!2sKonveksi%20onradimu!5e0!3m2!1sen!2sid!4v1660109928313!5m2!1sen!2sid" class="maps-embed">
+                </iframe>
+              </div>
+              {{-- <button class="btn-maps btn btn-sm btn-pilled btn-block btn-accent mt-1 mb-4" style="">Edit Denah Lokasi</button> --}}
+              <div class="text-center animate__animated animate__fadeInLeft animate__slow">
+                <div class="editable mb-3">Wonorejo Rt. 02/04 Wonorejo, Polokarto, Sukoharjo</div>
+                <a href="https://goo.gl/maps/MBhJmhr4fAaVPyne9" class="btn-maps-link btn btn-primary rounded-pill mb-4 animate__animated animate__fadeInLeft animate__slow" target="_blank">Petunjuk Ke Lokasi Resepsi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div style="width: 100%;">
+            <div>
+              <div style="
+                width: 100%;
+                margin: auto;
+                border-radius: 10px;
+                overflow: hidden;
+                margin-bottom: -200px;
+                padding-bottom: 100%;
+                position: relative;" class="animate__animated animate__fadeInRight animate__slow">
+                <iframe width="100%" height="50%" style="border:0;position: absolute;" loading="lazy" allowfullscreen="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25844.59522767249!2d110.91293271290806!3d-7.640491512655445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a23ca2c7880c1%3A0x1059cf452daf52d0!2sRidho%20Illahi%20Trans!5e0!3m2!1sid!2sid!4v1659372732340!5m2!1sid!2sid" class="maps-embed">
+                </iframe>
+              </div>
+              {{-- <button class="btn-maps btn btn-sm btn-pilled btn-block btn-accent mt-1 mb-4" style="">Edit Denah Lokasi</button> --}}
+              <div class="text-center animate__animated animate__fadeInRight animate__slow">
+                <div class="editable mb-3">Wonosari Rt. 01/13 Polokarto, Polokarto, Sukoharjo</div>
+                <a href="https://goo.gl/maps/26wv9Ep15g4hKLop9" class="btn-maps-link btn btn-primary rounded-pill mb-4 animate__animated animate__fadeInRight animate__slow" target="_blank">Petunjuk Ke Lokasi Ngunduh</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
                                         {{-- <li class="splide__slide invitation__slide">
                         <div class="container-mobile" style="background-image: url(client/theme3/themes/azureish-white/bg.jpg); ;">
                               <div class="frame">
